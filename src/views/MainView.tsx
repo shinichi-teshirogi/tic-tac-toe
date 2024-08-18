@@ -1,7 +1,4 @@
-import React, { useState } from "react"
-import { Cell } from "../components/Cell";
-import { CellText } from "../types/CellText";
-import { Box, Center, Flex, Heading, Spacer } from "@chakra-ui/react";
+import { Box, Flex, Heading, Spacer } from "@chakra-ui/react";
 import { Board } from "../components/Board";
 
 export const MainView = () => {

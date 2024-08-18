@@ -8,7 +8,7 @@ type Props = {
 
 export const Cell = ({ text, onClick }: Props) => {
     return (
-        <Button m={1} onClick={onClick} textColor={text == 'O' ? 'red' : 'blue'}>
+        <Button m={1} onClick={onClick} textColor={text === 'O' ? 'red' : 'blue'}>
             {text}
         </Button>
     )
