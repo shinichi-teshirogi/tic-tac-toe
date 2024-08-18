@@ -2,14 +2,17 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { MainView } from './views/MainView';
+import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <MainView />
-      </header>
-    </div>
+    <ChakraProvider>
+      <div className="App">
+        <header className="App-header">
+          <MainView />
+        </header>
+      </div>
+    </ChakraProvider>
   );
 }
 
